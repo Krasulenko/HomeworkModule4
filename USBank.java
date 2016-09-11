@@ -13,7 +13,7 @@ public class USBank extends Bank {
     public int getLimitOfFunding() {
         int limitOfFunding;
         if (getCurrency() == Currency.EUR) limitOfFunding = 10000;
-        else limitOfFunding = 0;
+        else limitOfFunding = 2000000000;
         return limitOfFunding;
     }
 
